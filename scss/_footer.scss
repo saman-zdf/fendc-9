@@ -2,7 +2,6 @@
   background: hsl(192, 100%, 9%);
   color: #fff;
   padding-top: 4rem;
-  z-index: -999;
   &-logo {
     font-size: 2rem;
   }
@@ -10,6 +9,7 @@
     display: grid;
     grid-template-columns: 2fr 1fr 1fr 1fr;
     column-gap: 1.5rem;
+    font-size: 0.9rem;
   }
   &-info {
     margin: 2rem 0;

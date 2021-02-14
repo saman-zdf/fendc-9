@@ -51,14 +51,14 @@
 .footer {
   background: #00252e;
   color: #fff;
-  padding-top: 4rem;
-  z-index: -999; }
+  padding-top: 4rem; }
   .footer-logo {
     font-size: 2rem; }
   .footer-content {
     display: grid;
     grid-template-columns: 2fr 1fr 1fr 1fr;
-    column-gap: 1.5rem; }
+    column-gap: 1.5rem;
+    font-size: 0.9rem; }
   .footer-info {
     margin: 2rem 0; }
   .footer-icon {
@@ -127,7 +127,7 @@ body {
   font-family: "Open Sans", sans-serif;
   line-height: 1.4;
   background-color: #fff;
-  font-size: 14px; }
+  font-size: 16px; }
 
 a {
   text-decoration: none;
