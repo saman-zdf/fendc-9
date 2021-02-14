@@ -1,0 +1,52 @@
+@media (max-width: 800px) {
+  .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &-logo {
+      width: 130px;
+      display: block;
+    }
+  }
+  .showcase {
+    &-content {
+      grid-template-columns: 1fr;
+      text-align: center;
+      margin: 5rem auto 0;
+    }
+    &-info {
+      margin-bottom: 4rem;
+    }
+  }
+  .main {
+    &-card {
+      flex-direction: column;
+      margin: 2rem auto;
+    }
+    &-card2 {
+      flex-direction: column-reverse;
+    }
+    &-info {
+      margin-bottom: 1rem;
+    }
+  }
+  .section {
+    padding: 0 2rem;
+    &-btn {
+      font-size: 0.7rem;
+      margin: 1rem auto;
+      padding: 0.7rem 2rem;
+    }
+  }
+  .footer {
+    &-content {
+      grid-template-columns: 1fr;
+    }
+    &-col4 {
+      justify-self: center;
+    }
+    &-text2 {
+      text-align: center;
+    }
+  }
+}

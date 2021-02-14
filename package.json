@@ -1,0 +1,14 @@
+{
+  "name": "frontend-9",
+  "version": "1.0.0",
+  "description": "![Design preview for the Huddle landing page with alternating feature blocks coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recurcive"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
